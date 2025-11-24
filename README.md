@@ -40,6 +40,3 @@ npm start
 ## Images
 Images are stored as external URLs in `lib/image-assets.ts`. To replace images, update the URLs there and the pages/components will pick them up automatically.
 
-## Contributing
-- Make changes on a branch, open PRs for review.
-- Keep images licensed properly (Unsplash is used here for demo content).
