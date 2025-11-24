@@ -22,6 +22,16 @@ export default function DashboardPage() {
               className="w-full py-4 px-12 bg-white/10 backdrop-blur-md border border-white/20 rounded-full text-white placeholder:text-white/50 focus:outline-none focus:ring-2 focus:ring-white/30"
             />
           </div>
+
+          {/* CTA Buttons */}
+          <div className="flex gap-4 mt-6">
+            <a href="/events/new">
+              <Button className="wavv-button-primary">Create Event</Button>
+            </a>
+            <a href="/events" className="hidden sm:inline-block">
+              <Button className="wavv-button-secondary">Browse Events</Button>
+            </a>
+          </div>
         </div>
       </section>
 
